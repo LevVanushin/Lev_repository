@@ -19,6 +19,10 @@ body{
     grid-auto-flow: dense;
 }
 
+.container:nth-child(2){
+    grid-column: span 2;
+}
+
 .caption{
     position: relative;
     text-align: center;
