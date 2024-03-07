@@ -40,8 +40,6 @@ body{
 }
 
 .information p{
-    position: relative;
-    text-align: center;
     font-size: 22px;
 }
 
@@ -77,6 +75,8 @@ body{
 
 .place img{
     position: relative;
+
+    justify-self: center;
 
     max-width:100%;
 
