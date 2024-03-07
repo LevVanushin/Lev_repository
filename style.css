@@ -35,6 +35,10 @@ body{
     max-width: 100%;
 }
 
+.place:nth-child(1) h1{
+    font-size: 56px;
+}
+
 .information p{
     position: relative;
     text-align: center;
@@ -65,9 +69,6 @@ body{
 
     justify-self: center;
     
-    min-width: 300px;
-    max-height: 100%;
-
     background-color: rgba(72, 120, 160, 0.5);
 
     border-radius: 10px;
@@ -101,3 +102,23 @@ body{
     font-weight: 700;
 }
 
+.facts{
+    grid-column: 2 / -2;
+    width: 100%;
+}
+
+.facts h1{
+    margin-bottom: 10px;
+}
+
+.facts ol{
+    position: relative;
+    font-family: "Bahnschrift", sans-serif;
+    font-size: 20px;
+
+    list-style-position: inside;
+}
+
+.facts li{
+    margin-bottom: 20px;
+}
